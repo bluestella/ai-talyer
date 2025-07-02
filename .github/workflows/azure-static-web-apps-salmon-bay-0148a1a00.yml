@@ -20,7 +20,7 @@ jobs:
           submodules: true
           lfs: false
       - name: Install Dependencies
-        run: npm ci && npm install parcel
+        run: npm install parcel
       - name: Clear Cache
         run: npm cache clean --force
       - name: Debug Dependency Tree
