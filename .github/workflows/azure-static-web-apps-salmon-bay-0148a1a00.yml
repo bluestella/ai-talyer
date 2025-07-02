@@ -19,6 +19,12 @@ jobs:
         with:
           submodules: true
           lfs: false
+      - name: Install Dependencies
+        run: npm ci && npm install parcel@2.14.4
+      - name: Clear Cache
+        run: npm cache clean --force
+      - name: Debug Dependency Tree
+        run: npm ls parcel      
       - name: Build with Parcel
         run: npm run build
       - name: Build And Deploy
