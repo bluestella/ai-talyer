@@ -1,0 +1,33 @@
+{
+  "name": "ai-talyer-parceljs",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx parcel build src/index.html --dist-dir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluestella/ai-talyer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bluestella/ai-talyer/issues"
+  },
+  "homepage": "https://github.com/bluestella/ai-talyer#readme",
+  "devDependencies": {
+    "@parcel/optimizer-htmlnano": "^2.14.4",
+    "@parcel/packager-raw-url": "^2.14.4",
+    "@parcel/reporter-dev-server": "^2.14.4",
+    "@parcel/transformer-webmanifest": "^2.14.4",
+    "@tailwindcss/postcss": "^4.0.17",
+    "autoprefixer": "^10.4.21",
+    "parcel": "*",
+    "postcss": "^8.5.3",
+    "svgo": "^3.3.2",
+    "tailwindcss": "^4.0.17"
+  }
+}
