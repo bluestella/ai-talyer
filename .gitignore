@@ -116,6 +116,9 @@ dist
 # Serverless directories
 .serverless/
 
+# npm-cache
+.npm-cache/
+
 # FuseBox cache
 .fusebox/
 
